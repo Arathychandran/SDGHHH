@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body bgcolor="white">
+  <p style="background-color:rgb(175, 169, 243);"><img src="logor.jpg" height="80" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="width: 100px; height: 50px;" class="button-solid" onclick="funa()" ><b>Home</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="width: 100px; height: 50px;" onclick="funb()" ><b>Donation</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="width: 120px; height: 50px;" onclick="func()" ><b>Contact Us</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button onclick="fund()" ><img src="imm.png" height="40" width="40"/></button>&nbsp;
+</br>
+</br>
+</p>
+
+<script>
+  function funa()
+{window.open('firstform')
+}
+function funb()
+{window.open('donation')
+}
+function func()
+{window.open('contactus')
+}
+function fund()
+{window.open('profiles')
+}
+function fun1()
+{window.open('signin')
+}
+</script>
+</body>
+<body>
+
+    <title></title>
+    <style>
+      .center {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width:600px;
+        border: 1px solid rgb(12, 0, 0);
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+    </style>
+</br>
+<div class="center"  style="background-color: rgb(190, 174, 238);">
+        
+        <form action = 'register' method="get", value="creation">
+        <p style="text-align:center">Sign Up Now !</p></br>
+        <label for ="q1">Name</label> </br>
+        <input type="text" name='q1'></br></br>
+        <label for ="q2">Email</label>  </br>
+          <input type="text" name='q2'></br></br>
+        <label for ="q3">Mobile Number</label>  </br>
+          <input type="text" name='q3'></br></br>
+        
+        <label for ="q4">Username</label>  </br>
+          <input type="text" name=q4></br></br>
+        
+        <label for ="q5">Password</label>  </br>
+          <input type="text" name=q5></br></br>
+        
+        <label for ="q6">Type of Donation</label></br>
+        <select name="q6" id="q6"></br></br>
+
+            <option value="Individual">Individual</option>
+            <option value="Community">Community</option>
+        </select></br></br>
+        
+          <label for="q9">Make profile PUBLIC:</label></br>
+        <select name="q9" id="q9"></br></br>
+          
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select></br></br>
+        <div style="text-align:center">
+          <input type="submit" value="Sign Up"></br></br>
+        </div>
+        </form>
+</div>
+</body>
+</html>
